@@ -1,18 +1,18 @@
---drop table t; 
+п»ї--drop table t; 
 create table t as 
-select 1 as id, null as pid, 'Корень' as nam from dual
+select 1 as id, null as pid, 'РљРѕСЂРµРЅСЊ' as nam from dual
 union all
-select 2, 1, 'Узел2' from dual
+select 2, 1, 'РЈР·РµР»2' from dual
 union all
-select 3, 1, 'Узел3' from dual
+select 3, 1, 'РЈР·РµР»3' from dual
 union all
-select 4, 2, 'Узел4' from dual
+select 4, 2, 'РЈР·РµР»4' from dual
 union all
-select 5, 4, 'Узел5' from dual
+select 5, 4, 'РЈР·РµР»5' from dual
 union all
-select 6, 5, 'Узел6' from dual
+select 6, 5, 'РЈР·РµР»6' from dual
 union all
-select 7, 4, 'Узел7' from dual
+select 7, 4, 'РЈР·РµР»7' from dual
 ;
 
 -- select * from t
