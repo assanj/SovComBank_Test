@@ -1,4 +1,4 @@
-create table payments as
+﻿create table payments as
 select 1 as id, 1 as pay_type, to_date('01.01.2012','dd.mm.yyyy') as pay_date, 100 as pay_sum from dual union all
 select 2 as id, 1 as pay_type, to_date('02.01.2012','dd.mm.yyyy') as pay_date, 200 as pay_sum from dual union all
 select 3 as id, 1 as pay_type, to_date('03.01.2012','dd.mm.yyyy') as pay_date, 300 as pay_sum from dual union all

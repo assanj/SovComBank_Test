@@ -1,4 +1,4 @@
-create table rates as
+﻿create table rates as
 select 1 as curr_id, to_date('01.01.2010','dd.mm.yyyy') as date_rate, 30 as rate from dual union all
 select 2 as curr_id, to_date('01.01.2010','dd.mm.yyyy') as date_rate, 40 as rate from dual union all
 select 1 as curr_id, to_date('02.01.2010','dd.mm.yyyy') as date_rate, 32 as rate from dual union all

@@ -1,4 +1,4 @@
---drop table t1;
+﻿--drop table t1;
 create table t1 as
 select 1 as a, 1 as b from dual
 union all
